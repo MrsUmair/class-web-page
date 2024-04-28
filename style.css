@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    display: inline-block;
+    color: rgb(10, 9, 9);
+    font-size: 22px;
+}
+/* .menu 
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    color: #eeee;
+    background-color: rgb(15, 14, 14);
+    position: absolute;
+    z-index: 8;
+    width: 100%;
+    
+    transition: 0.2s ease-in-out;
+
+}
+ul{
+ justify-content: flex-end;
+    
+}
+li{
+    align-items: center;
+
+}
+ul li{
+    display: inline-block;
+    margin: 0;
+}
+ul li a{
+    text-transform: uppercase;
+    padding: 28px 0;
+    display: inline-block;
+    position: relative;
+}
+ul > li{
+    margin-right: 15px;
+}
+
+/* ul > li > a{
+     content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #000000;
+    transition: 0.6s ease-in-out;
+}  */
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color:white;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: aliceblue;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+} */
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+
+}
+h1 h2{
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 400;
+    font-style: normal; */
+  }
+  section{
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  /* banner section */
+
+  #hero{
+    width: 100%;
+    height: 100vh;
+    background-image:url(image/image\ 33.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+  }
+  .container{
+    padding-top: 80px;
+  }
+  #hero h1{
+    font-weight: 80px;
+    font-style:700;
+    line-height: 56px;
+    color: pink;
+    margin: 0 0 10px 0;
+  }
+  #hero h2{
+    color: #eeee;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family:"Poppins", sans-serif;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  #hero .btn_get_started{
+    font-family:"Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    margin: 10px;
+    border: 2px solid rgb(15, 15, 15);
+    background-color: transparent;
+    color: rgb(16, 16, 13);
+    transition: o.6s all;
+    text-decoration: none;
+ }
+ #hero .btn_get_started:hover{
+    background-color: #009970;
+    border: 2px solid #009970;
+ }
+
+
+
